@@ -1,0 +1,37 @@
+Script started on Fri 10 Feb 2012 01:32:21 AM PST
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ./lab1.sh [K[K[K[K[K[K[K[Kgreetings.sh 
+Good morning
+Hello nikki, it's nice to see you in the land of Linux.
+Your login was found in the passwd file.
+root is not logged on
+Do you like Linux? yes
+yes is the right response.
+This script is named ./greetings.sh
+Your current directory is /home/nikki/Documents/classes/68B_linux.
+You are working on a computer called boombox.
+Here is a long list of your files.
+total 344
+-rw-r--r-- 1 nikki nikki      0 2012-01-29 18:23 ab3
+-rw-r--r-- 1 nikki nikki      0 2012-01-29 18:23 abc1
+-rw-r--r-- 1 nikki nikki      0 2012-01-29 18:23 a.c
+-rw-r--r-- 1 nikki nikki  37028 2012-01-29 17:55 errors
+-rwxrwxrwx 1 nikki nikki      7 2012-01-29 17:52 file1
+-rw-r--r-- 1 nikki nikki    182 2012-01-29 17:55 file2
+-rw-r--r-- 1 nikki nikki    189 2012-01-29 17:55 file3
+-rwxr-xr-x 1 nikki nikki   1889 2012-02-10 01:31 greetings.sh
+-rw-r--r-- 1 nikki nikki  34908 2012-01-29 17:56 lab1
+-rwxr-xr-x 1 nikki nikki     19 2012-01-29 18:03 lab1.sh
+-rw-r--r-- 1 nikki nikki  18156 2012-01-29 19:26 lab2
+-rw-r--r-- 1 nikki nikki 215919 2012-02-10 01:32 lab3
+-rw-r--r-- 1 nikki nikki      0 2012-02-10 01:32 lab4
+-rw-r--r-- 1 nikki nikki    180 2012-01-29 18:03 login_times
+drwxr-xr-x 2 nikki nikki   4096 2012-01-29 17:37 work
+The answer is 42
+Name four friends?goe  eorge ashley dave fenn
+Say hi to fenn
+The date is Feb 10, 2012
+Bye for now nikki. The time is 01:32:50!
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ exit
+exit
+
+Script done on Fri 10 Feb 2012 01:33:00 AM PST

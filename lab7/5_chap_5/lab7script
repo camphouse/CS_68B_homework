@@ -1,0 +1,48 @@
+Script started on Sat 10 Mar 2012 02:00:00 PM PST
+]0;nikki@boombox: ~/bash_hw/5_chap_5[01;32mnikki@boombox[00m:[01;34m~/bash_hw/5_chap_5[00m$ bash -x sed -f sedd[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+amptext  datafile  datafile-change  lab7  lab7script  lab7script.sh  newfile  newfile2  newtext  newtext2  text
+]0;nikki@boombox: ~/bash_hw/5_chap_5[01;32mnikki@boombox[00m:[01;34m~/bash_hw/5_chap_5[00m$ mv lab7script.sh sedding1
+]0;nikki@boombox: ~/bash_hw/5_chap_5[01;32mnikki@boombox[00m:[01;34m~/bash_hw/5_chap_5[00m$ bash -x sed -d [K[Kf sedding1 datafile
+/bin/sed: /bin/sed: cannot execute binary file
+]0;nikki@boombox: ~/bash_hw/5_chap_5[01;32mnikki@boombox[00m:[01;34m~/bash_hw/5_chap_5[00m$ sed -f sedding1 datafile
+	EMPLOYEE DATABASE
+northwest 	NW	Charles Main		3.0	.98	3	34
+western 	WE	Sharon Gray		5.3	.97	5	23
+southwest 	SW	Lewis Dalsass		2.7	.8	2	18
+	Lewis is the TOP Salesperson for April!!
+	Lewis is moving to the southern district next month.
+	Congratulations!
+southern 	SO	Suan Chin		5.1	.95	4	15
+southeast  	SE	Patricia Hemenway	4.0	.7	4	17
+eastern 	EA	TB Savage		4.4	.84	5	20
+northeast  	NE	AM Main Jr.		5.1	.94	3	13
+	MARGOT HAS RETIRED
+]0;nikki@boombox: ~/bash_hw/5_chap_5[01;32mnikki@boombox[00m:[01;34m~/bash_hw/5_chap_5[00m$ sed -f sedding1 datafile | bash -x
++ EMPLOYEE DATABASE
+bash: line 1: EMPLOYEE: command not found
++ northwest NW Charles Main 3.0 .98 3 34
+bash: line 2: northwest: command not found
++ western WE Sharon Gray 5.3 .97 5 23
+bash: line 3: western: command not found
++ southwest SW Lewis Dalsass 2.7 .8 2 18
+bash: line 4: southwest: command not found
++ Lewis is the TOP Salesperson for 'April!!'
+bash: line 5: Lewis: command not found
++ Lewis is moving to the southern district next month.
+bash: line 6: Lewis: command not found
++ 'Congratulations!'
+bash: line 7: Congratulations!: command not found
++ southern SO Suan Chin 5.1 .95 4 15
+bash: line 8: southern: command not found
++ southeast SE Patricia Hemenway 4.0 .7 4 17
+bash: line 9: southeast: command not found
++ eastern EA TB Savage 4.4 .84 5 20
+bash: line 10: eastern: command not found
++ northeast NE AM Main Jr. 5.1 .94 3 13
+bash: line 11: northeast: command not found
++ MARGOT HAS RETIRED
+bash: line 12: MARGOT: command not found
+]0;nikki@boombox: ~/bash_hw/5_chap_5[01;32mnikki@boombox[00m:[01;34m~/bash_hw/5_chap_5[00m$ exit
+exit
+
+Script done on Sat 10 Mar 2012 02:01:17 PM PST

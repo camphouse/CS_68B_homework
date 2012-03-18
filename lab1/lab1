@@ -1,0 +1,460 @@
+Script started on Sun 29 Jan 2012 05:51:45 PM PST
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ bash
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  24140  1508 ?        Ss   Jan22   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Jan22   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Jan22   0:06 [ksoftirqd/0]
+root         6  0.0  0.0      0     0 ?        S    Jan22   0:00 [migration/0]
+root        17  0.0  0.0      0     0 ?        S<   Jan22   0:00 [cpuset]
+root        18  0.0  0.0      0     0 ?        S<   Jan22   0:00 [khelper]
+root        19  0.0  0.0      0     0 ?        S<   Jan22   0:00 [netns]
+root        21  0.0  0.0      0     0 ?        S    Jan22   0:00 [sync_supers]
+root        22  0.0  0.0      0     0 ?        S    Jan22   0:00 [bdi-default]
+root        23  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kintegrityd]
+root        24  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kblockd]
+root        25  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kacpid]
+root        26  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kacpi_notify]
+root        27  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kacpi_hotplug]
+root        28  0.0  0.0      0     0 ?        S<   Jan22   0:00 [ata_sff]
+root        29  0.0  0.0      0     0 ?        S    Jan22   0:00 [khubd]
+root        30  0.0  0.0      0     0 ?        S<   Jan22   0:00 [md]
+root        33  0.0  0.0      0     0 ?        S    Jan22   0:00 [khungtaskd]
+root        34  0.0  0.0      0     0 ?        S    Jan22   0:02 [kswapd0]
+root        35  0.0  0.0      0     0 ?        SN   Jan22   0:00 [ksmd]
+root        36  0.0  0.0      0     0 ?        S    Jan22   0:00 [fsnotify_mark]
+root        37  0.0  0.0      0     0 ?        S<   Jan22   0:00 [aio]
+root        38  0.0  0.0      0     0 ?        S    Jan22   0:00 [ecryptfs-kthrea]
+root        39  0.0  0.0      0     0 ?        S<   Jan22   0:00 [crypto]
+root        43  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kthrotld]
+root        46  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kmpathd]
+root        47  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kmpath_handlerd]
+root        48  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kondemand]
+root        49  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kconservative]
+root       187  0.0  0.0      0     0 ?        S    Jan22   0:00 [scsi_eh_0]
+root       188  0.0  0.0      0     0 ?        S    Jan22   0:00 [scsi_eh_1]
+root       189  0.0  0.0      0     0 ?        S    Jan22   0:00 [scsi_eh_2]
+root       190  0.0  0.0      0     0 ?        S    Jan22   0:00 [scsi_eh_3]
+root       191  0.0  0.0      0     0 ?        S    Jan22   0:00 [scsi_eh_4]
+root       192  0.0  0.0      0     0 ?        S    Jan22   0:00 [scsi_eh_5]
+root       219  0.0  0.0      0     0 ?        S    Jan22   0:03 [jbd2/sda5-8]
+root       220  0.0  0.0      0     0 ?        S<   Jan22   0:00 [ext4-dio-unwrit]
+root       267  0.0  0.0  17052   432 ?        S    Jan22   0:00 upstart-udev-bridge --daemon
+root       295  0.0  0.0  21608   648 ?        S<s  Jan22   0:00 udevd --daemon
+root       482  0.0  0.0  49464    20 ?        Ss   Jan22   0:00 /usr/sbin/sshd -D
+syslog     573  0.0  0.0 185920   564 ?        Sl   Jan22   0:01 rsyslogd -c4
+root       576  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kpsmoused]
+root       580  0.0  0.0      0     0 ?        S<   Jan22   0:00 [cfg80211]
+root       598  0.0  0.0      0     0 ?        S    Jan22   0:00 [ips-adjust]
+root       599  0.0  0.0      0     0 ?        S    Jan22   0:04 [ips-monitor]
+root       611  0.0  0.0      0     0 ?        S<   Jan22   0:00 [hd-audio0]
+root       614  0.0  0.0      0     0 ?        S<   Jan22   0:00 [iwlagn]
+root       631  0.0  0.0      0     0 ?        S<   Jan22   0:00 [ktpacpid]
+root       640  0.0  0.0      0     0 ?        S    Jan22   0:02 [flush-8:0]
+root       699  0.0  0.0  91580   140 ?        Ss   Jan22   0:00 smbd -F
+root       720  0.0  0.0  15004   124 ?        S    Jan22   0:00 upstart-socket-bridge --daemon
+102        745  0.0  0.1  25880  2404 ?        Ss   Jan22   0:34 dbus-daemon --system --fork --activation=upstart
+root       762  0.0  0.0  79180   856 ?        Ssl  Jan22   0:00 gdm-binary
+root       769  0.0  0.0  91580    72 ?        S    Jan22   0:00 smbd -F
+avahi      784  0.0  0.0  32272  1172 ?        S    Jan22   0:21 avahi-daemon: running [boombox.local]
+avahi      785  0.0  0.0  32008    56 ?        S    Jan22   0:00 avahi-daemon: chroot helper
+root       793  0.0  0.0  75512   296 ?        Ss   Jan22   0:00 /usr/sbin/cupsd -F
+root       796  0.0  0.1 158440  3752 ?        Ssl  Jan22   0:17 NetworkManager
+root       798  0.0  0.1 256588  3100 ?        Sl   Jan22   0:03 /usr/sbin/console-kit-daemon --no-daemon
+root       866  0.0  0.0  64656   468 ?        S    Jan22   0:00 /usr/sbin/modem-manager
+root       869  0.0  0.1 195296  2828 ?        Sl   Jan22   0:08 /usr/lib/policykit-1/polkitd
+root       874  0.0  0.0  93756    40 ?        Sl   Jan22   0:00 /usr/lib/gdm/gdm-simple-slave --display-id /org/gnome/DisplayManager/Display1
+root       892  0.0  0.9 163956 17760 tty7     Ss+  Jan22   9:08 /usr/bin/X :0 -nr -verbose -auth /var/run/gdm/auth-for-gdm-Pr9rue/database -nolisten tc
+root       898  0.0  0.0  28932  1548 ?        S    Jan22   0:03 /sbin/wpa_supplicant -u -s
+root       952  0.0  0.0   6196     4 tty4     Ss+  Jan22   0:00 /sbin/getty -8 38400 tty4
+root       957  0.0  0.0   6196     4 tty5     Ss+  Jan22   0:00 /sbin/getty -8 38400 tty5
+root       967  0.0  0.0   6196     4 tty2     Ss+  Jan22   0:00 /sbin/getty -8 38400 tty2
+root       968  0.0  0.0   6196     4 tty3     Ss+  Jan22   0:00 /sbin/getty -8 38400 tty3
+root       971  0.0  0.0   6196     4 tty6     Ss+  Jan22   0:00 /sbin/getty -8 38400 tty6
+root       978  0.0  0.0   4944  1216 ?        Ss   Jan22   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+daemon     983  0.0  0.0  16728    16 ?        Ss   Jan22   0:00 atd
+root       984  0.0  0.0  18928   216 ?        Ss   Jan22   0:00 cron
+mysql      994  0.0  0.0 170136  1776 ?        Ssl  Jan22   0:32 /usr/sbin/mysqld
+root      1087  0.0  0.0 162720    20 ?        Sl   Jan22   0:00 /usr/lib/gdm/gdm-session-worker
+root      1126  0.0  0.0 106444    92 ?        Ss   Jan22   0:02 /usr/sbin/apache2 -k start
+nikki     1138  0.0  0.0 236956  1844 ?        Ssl  Jan22   0:03 gnome-session --session=ubuntu
+www-data  1185  0.0  0.0 106444    12 ?        S    Jan22   0:00 /usr/sbin/apache2 -k start
+www-data  1186  0.0  0.0 106444    12 ?        S    Jan22   0:00 /usr/sbin/apache2 -k start
+www-data  1187  0.0  0.0 106444    12 ?        S    Jan22   0:00 /usr/sbin/apache2 -k start
+www-data  1188  0.0  0.0 106444    12 ?        S    Jan22   0:00 /usr/sbin/apache2 -k start
+www-data  1189  0.0  0.0 106444    12 ?        S    Jan22   0:00 /usr/sbin/apache2 -k start
+nikki     1283  0.0  0.0 227700   584 ?        Ssl  Jan22   0:00 /usr/bin/seahorse-agent --execute gnome-session -- --session=ubuntu
+nikki     1293  0.0  0.0  26400     0 ?        S    Jan22   0:00 dbus-launch --exit-with-session gnome-session --session=ubuntu
+root      1322  0.0  0.0   6196     4 tty1     Ss+  Jan22   0:00 /sbin/getty -8 38400 tty1
+nikki     1324  0.0  0.0  26140  1832 ?        Ss   Jan22   0:13 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+nikki     1330  0.0  0.1  57928  2956 ?        S    Jan22   0:05 /usr/lib/libgconf2-4/gconfd-2
+nikki     1337  0.0  0.1 176824  3296 ?        SLl  Jan22   0:00 /usr/bin/gnome-keyring-daemon --start --components=ssh
+nikki     1342  0.0  0.2 387956  5200 ?        Ssl  Jan22   0:11 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+nikki     1347  0.0  0.0  51968   528 ?        S    Jan22   0:00 /usr/lib/gvfs/gvfsd
+nikki     1352  0.0  0.0  81008   144 ?        Ssl  Jan22   0:00 /usr/lib/gvfs//gvfs-fuse-daemon /home/nikki/.gvfs
+nikki     1357  0.0  0.3 292776  7176 ?        Sl   Jan22   0:15 metacity
+rtkit     1362  0.0  0.0 103164   448 ?        SNl  Jan22   0:01 /usr/lib/rtkit/rtkit-daemon
+nikki     1365  0.0  0.8 701716 16952 ?        Sl   Jan22   0:09 nautilus
+nikki     1367  0.0  0.0 225784  1672 ?        Sl   Jan22   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+nikki     1369  0.0  0.0 248796  1180 ?        Sl   Jan22   0:00 bluetooth-applet
+nikki     1371  0.0  0.1 340540  2324 ?        Sl   Jan22   0:00 /usr/lib/evolution/2.32/evolution-alarm-notify
+nikki     1372  0.0  0.4 369500  8400 ?        Sl   Jan22   0:06 gnome-panel
+nikki     1373  0.0  1.0 460096 20056 ?        SLl  Jan22   0:39 nm-applet --sm-disable
+nikki     1374  0.0  0.2 322364  5152 ?        Sl   Jan22   0:27 gnome-power-manager
+nikki     1388  0.0  0.1 326500  1940 ?        Sl   Jan22   0:00 /usr/lib/evolution/e-calendar-factory
+nikki     1390  0.0  0.4 306908  8476 ?        Sl   Jan22   0:09 /usr/lib/notify-osd/notify-osd
+nikki     1395  0.0  0.0  22608    88 ?        S    Jan22   0:36 syndaemon -i 0.5 -k -R
+root      1397  0.0  0.1 143964  3296 ?        Sl   Jan22   0:16 /usr/lib/upower/upowerd
+nikki     1402  0.0  0.1 158132  2032 ?        S    Jan22   0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+nikki     1406  0.0  0.0  56760  1156 ?        S    Jan22   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.12 /org/gtk/gvfs/exec_spaw/0
+nikki     1409  0.0  0.0 320560     0 ?        Sl   Jan22   0:00 /usr/lib/evolution/e-addressbook-factory
+nikki     1414  0.0  0.2 239636  4380 ?        Ss   Jan22   0:01 gnome-screensaver
+root      1417  0.0  0.1 136120  2460 ?        Sl   Jan22   0:02 /usr/lib/udisks/udisks-daemon
+root      1469  0.0  0.0  45168   240 ?        S    Jan22   0:00 udisks-daemon: not polling any devices
+nikki     1481  0.0  0.0  73364   184 ?        Sl   Jan22   0:03 /usr/lib/gvfs/gvfs-afc-volume-monitor
+nikki     1484  0.0  0.0  59568   264 ?        S    Jan22   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+nikki     1490  0.0  0.0 214624     0 ?        Ssl  Jan22   0:00 /usr/lib/bonobo-activation/bonobo-activation-server --ac-activate --ior-output-fd=23
+nikki     1494  0.0  0.0  52232     4 ?        S    Jan22   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.12 /org/gtk/gvfs/exec_spaw/1
+nikki     1495  0.0  0.0 173860  1724 ?        S    Jan22   0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+nikki     1501  0.0  0.4 304848  7700 ?        Sl   Jan22   0:44 /usr/lib/gnome-panel/wnck-applet
+nikki     1503  0.0  0.3 283872  6968 ?        Sl   Jan22   0:00 /usr/lib/gnome-applets/trashapplet
+nikki     1510  0.0  0.2 305876  5120 ?        Sl   Jan22   0:00 /usr/lib/indicator-applet/indicator-applet-session
+nikki     1512  0.0  0.4 614752  9492 ?        Sl   Jan22   0:05 /usr/lib/gnome-panel/clock-applet
+nikki     1514  0.0  0.5 391032 10664 ?        Sl   Jan22   0:39 /usr/lib/indicator-applet/indicator-applet
+nikki     1516  0.0  0.1 269412  2112 ?        Sl   Jan22   0:00 /usr/lib/gnome-panel/notification-area-applet
+nikki     1524  0.0  0.0  46000   508 ?        S    Jan22   0:00 /usr/lib/gvfs/gvfsd-metadata
+nikki     1528  0.0  0.0 241468   764 ?        Sl   Jan22   0:00 /usr/lib/indicator-me/indicator-me-service
+nikki     1530  0.0  0.1 301416  2092 ?        Sl   Jan22   0:01 /usr/lib/indicator-session/indicator-session-service
+nikki     1545  0.0  0.0 222888     0 ?        Sl   Jan22   0:00 /usr/lib/indicator-messages/indicator-messages-service
+nikki     1547  0.0  0.0 401476  1580 ?        Sl   Jan22   0:01 /usr/lib/indicator-sound/indicator-sound-service
+nikki     1549  0.0  0.1 208436  2020 ?        Sl   Jan22   0:16 /usr/lib/indicator-application/indicator-application-service
+nikki     1601  0.0  0.1 244232  2084 ?        S    Jan22   0:05 /usr/bin/python /usr/share/system-config-printer/applet.py
+root      1673  0.0  0.0  61688   792 ?        Ss   Jan22   0:03 nmbd -D
+nikki     1793  0.0  0.1 308224  3384 ?        Sl   Jan22   0:02 update-notifier
+root      1819  0.0  0.1  84052  2876 ?        S    Jan22   0:00 /usr/bin/python /usr/lib/system-service/system-service-d
+nikki     3027  0.0  0.5 319688 10388 ?        Sl   Jan22   1:15 /usr/bin/gnome-terminal
+nikki     3029  0.0  0.2 218680  4352 ?        S    Jan22   0:04 /usr/lib/bamf/bamfdaemon
+nikki     3035  0.0  0.0  14612   356 ?        S    Jan22   0:00 gnome-pty-helper
+nikki     3036  0.0  0.0  21012    16 pts/0    Ss   Jan22   0:00 bash
+nikki     3040  0.0  0.2 522752  4596 ?        Ssl  Jan22   2:54 mocp
+nikki     3088  0.0  0.0 144400  1416 pts/0    S+   Jan22   0:37 mocp
+nikki     5144  0.0  0.0 122464  1144 ?        Sl   Jan22   0:00 /usr/lib/d-conf/dconf-service
+nikki     6944  0.0  0.1 215624  3208 ?        Ssl  Jan22   0:47 /usr/bin/pulseaudio --start --log-target=syslog
+nikki     6948  0.0  0.0 181372     0 ?        Sl   Jan22   0:00 /usr/lib/pulseaudio/pulse/gconf-helper
+nikki     7367  0.0  3.9 666664 75740 ?        SLl  Jan22   9:01 /opt/google/chrome/chrome       
+nikki     7373  0.0  0.0 832544  1264 ?        Sl   Jan22   0:05 /opt/google/chrome/chrome       
+nikki     7375  0.0  0.0 285852  1152 ?        S    Jan22   0:00 /opt/google/chrome/chrome --type=zygote
+nikki     7377  0.0  0.0 1158272    0 ?        S    Jan22   0:00 /opt/google/chrome/nacl_helper_bootstrap /opt/google/chrome/nacl_helper --at-zero
+nikki     8205  0.0  7.0 1023576 134244 ?      SNl  Jan22   1:45 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpac
+nikki     8222  0.0  0.2 282560  5232 ?        Sl   Jan22   5:35 /opt/google/chrome/chrome --type=plugin --plugin-path=/var/lib/flashplugin-installer/np
+nikki     8235  0.2  1.0 152180 20336 ?        Sl   Jan22  25:19 /usr/lib/nspluginwrapper/i386/linux/npviewer.bin --plugin /usr/lib/flashplugin-installe
+nikki    12970  0.0  0.2 316176  5504 ?        Sl   Jan24   0:00 /opt/google/chrome/chrome --type=service --lang=en-US
+nikki    13033  0.0  0.3 285644  6652 ?        Sl   Jan24   0:01 /opt/google/chrome/chrome --type=gpu-process --channel=7367.0x7fee5c800600.25577589
+nikki    13044  0.0  2.1 915104 41920 ?        Sl   Jan24   0:38 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpac
+nikki    15375  0.0  1.5 915756 29896 ?        SNl  Jan27   0:06 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpac
+nikki    15405  0.0  1.9 921548 37152 ?        SNl  Jan27   0:07 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpac
+root     16576  0.0  0.0      0     0 ?        R    Jan28   0:02 [kworker/0:0]
+nikki    17391  0.1 10.5 1030964 201552 ?      SNl  Jan28   2:14 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpac
+nikki    17428  0.0  2.9 919948 56876 ?        SNl  Jan28   0:07 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpac
+nikki    18148  0.0  1.7 896316 33528 ?        SNl  11:45   0:03 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpac
+nikki    18855  0.0  2.0 904380 38960 ?        SNl  15:06   0:02 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpac
+root     19287  0.0  0.0      0     0 ?        S    15:51   0:00 [kworker/u:17]
+nikki    19664  0.1  3.5 933192 67840 ?        SNl  15:51   0:11 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpac
+root     19708  0.0  0.0      0     0 ?        S    16:01   0:00 [kworker/0:1]
+root     20041  0.0  0.0      0     0 ?        S    16:01   0:00 [kworker/u:7]
+root     20065  0.0  0.0      0     0 ?        S    16:23   0:00 [kworker/u:18]
+root     20723  0.0  0.0      0     0 ?        S    16:51   0:00 [migration/1]
+root     20724  0.0  0.0      0     0 ?        S    16:51   0:02 [kworker/1:5]
+root     20725  0.0  0.0      0     0 ?        S    16:51   0:00 [ksoftirqd/1]
+root     20726  0.0  0.0      0     0 ?        S    16:51   0:00 [migration/2]
+root     20727  0.0  0.0      0     0 ?        S    16:51   0:00 [kworker/2:3]
+root     20728  0.0  0.0      0     0 ?        S    16:51   0:00 [ksoftirqd/2]
+root     20729  0.0  0.0      0     0 ?        S    16:51   0:00 [migration/3]
+root     20730  0.0  0.0      0     0 ?        S    16:51   0:00 [kworker/3:1]
+root     20731  0.0  0.0      0     0 ?        S    16:51   0:00 [ksoftirqd/3]
+root     20732  0.0  0.0      0     0 ?        S    16:51   0:00 [kworker/3:0]
+root     20733  0.0  0.0      0     0 ?        S    16:51   0:00 [kworker/1:0]
+root     20736  0.0  0.0      0     0 ?        S    16:51   0:00 [kworker/2:0]
+root     20750  0.0  0.0  21604   712 ?        S<   16:51   0:00 udevd --daemon
+root     20751  0.0  0.0  21604   700 ?        S<   16:51   0:00 udevd --daemon
+root     20991  0.0  0.0   7084  1528 ?        S    16:51   0:00 /sbin/dhclient -d -4 -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /var/run/dhc
+nikki    21133  0.9  4.1 932072 78632 ?        Sl   17:16   0:20 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpac
+nikki    21145  0.0  0.1  21044  2452 pts/1    Ss   17:17   0:00 bash
+nikki    21160  0.0  0.0  17324   948 pts/1    S+   17:18   0:00 script -a lab1
+nikki    21161  0.0  0.0  17328   368 pts/1    S+   17:18   0:00 script -a lab1
+nikki    21162  0.0  0.1  21040  2396 pts/2    Ss   17:18   0:00 bash -i
+nikki    21173  0.0  0.1  21044  2440 pts/2    S+   17:18   0:00 bash
+nikki    21184  0.0  0.1  21044  2464 pts/3    Ss   17:19   0:00 bash
+nikki    21479  0.0  0.0  17324   948 pts/3    S+   17:51   0:00 script -a lab1
+nikki    21480  0.0  0.0  17328   368 pts/3    S+   17:51   0:00 script -a lab1
+nikki    21481  0.0  0.1  21048  2404 pts/4    Ss   17:51   0:00 bash -i
+nikki    21490  0.2  0.1  21048  2396 pts/4    S    17:51   0:00 bash
+nikki    21499  0.0  0.0  17944  1388 pts/4    R+   17:51   0:00 ps aux
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ pstree
+init─┬─NetworkManager─┬─dhclient
+     │                └─2*[{NetworkManager}]
+     ├─acpid
+     ├─apache2───5*[apache2]
+     ├─atd
+     ├─avahi-daemon───avahi-daemon
+     ├─bamfdaemon
+     ├─bonobo-activati───2*[{bonobo-activat}]
+     ├─chrome─┬─chrome───{chrome}
+     │        ├─chrome─┬─npviewer.bin───5*[{npviewer.bin}]
+     │        │        └─{chrome}
+     │        ├─chrome───6*[{chrome}]
+     │        ├─chrome───2*[{chrome}]
+     │        └─28*[{chrome}]
+     ├─chrome─┬─10*[chrome───4*[{chrome}]]
+     │        └─nacl_helper_boo
+     ├─clock-applet───{clock-applet}
+     ├─console-kit-dae───64*[{console-kit-da}]
+     ├─cron
+     ├─cupsd
+     ├─2*[dbus-daemon]
+     ├─dbus-launch
+     ├─dconf-service───{dconf-service}
+     ├─e-addressbook-f───{e-addressbook-}
+     ├─e-calendar-fact───{e-calendar-fac}
+     ├─gconfd-2
+     ├─gdm-binary─┬─gdm-simple-slav─┬─Xorg
+     │            │                 ├─gdm-session-wor─┬─gnome-session─┬─applet.py
+     │            │                 │                 │               ├─bluetooth-apple───2*[{bluetooth-appl}]
+     │            │                 │                 │               ├─evolution-alarm───{evolution-alar}
+     │            │                 │                 │               ├─gdu-notificatio
+     │            │                 │                 │               ├─gnome-panel───{gnome-panel}
+     │            │                 │                 │               ├─gnome-power-man───{gnome-power-ma}
+     │            │                 │                 │               ├─metacity───{metacity}
+     │            │                 │                 │               ├─nautilus───2*[{nautilus}]
+     │            │                 │                 │               ├─nm-applet───{nm-applet}
+     │            │                 │                 │               ├─polkit-gnome-au───{polkit-gnome-a}
+     │            │                 │                 │               ├─seahorse-agent───{seahorse-agent}
+     │            │                 │                 │               ├─update-notifier───{update-notifie}
+     │            │                 │                 │               └─2*[{gnome-session}]
+     │            │                 │                 └─{gdm-session-wo}
+     │            │                 └─{gdm-simple-sla}
+     │            └─{gdm-binary}
+     ├─6*[getty]
+     ├─gnome-keyring-d───5*[{gnome-keyring-}]
+     ├─gnome-screensav
+     ├─gnome-settings-───{gnome-settings}
+     ├─gnome-terminal─┬─bash───mocp
+     │                ├─bash───script───script───bash───bash
+     │                ├─bash───script───script───bash───bash───pstree
+     │                ├─gnome-pty-helpe
+     │                └─2*[{gnome-terminal}]
+     ├─gvfs-afc-volume───{gvfs-afc-volum}
+     ├─gvfs-fuse-daemo───3*[{gvfs-fuse-daem}]
+     ├─gvfs-gdu-volume
+     ├─gvfs-gphoto2-vo
+     ├─gvfsd
+     ├─gvfsd-burn
+     ├─gvfsd-metadata
+     ├─gvfsd-trash
+     ├─indicator-apple───{indicator-appl}
+     ├─indicator-apple───2*[{indicator-appl}]
+     ├─indicator-appli───{indicator-appl}
+     ├─indicator-me-se───{indicator-me-s}
+     ├─indicator-messa───{indicator-mess}
+     ├─indicator-sessi───{indicator-sess}
+     ├─indicator-sound───2*[{indicator-soun}]
+     ├─mocp───6*[{mocp}]
+     ├─modem-manager
+     ├─mysqld───11*[{mysqld}]
+     ├─nmbd
+     ├─notification-ar───{notification-a}
+     ├─notify-osd───{notify-osd}
+     ├─polkitd───{polkitd}
+     ├─pulseaudio─┬─gconf-helper───{gconf-helper}
+     │            └─2*[{pulseaudio}]
+     ├─rsyslogd───2*[{rsyslogd}]
+     ├─rtkit-daemon───2*[{rtkit-daemon}]
+     ├─smbd───smbd
+     ├─sshd
+     ├─syndaemon
+     ├─system-service-
+     ├─trashapplet───{trashapplet}
+     ├─udevd───2*[udevd]
+     ├─udisks-daemon─┬─udisks-daemon
+     │               └─2*[{udisks-daemon}]
+     ├─upowerd───{upowerd}
+     ├─upstart-socket-
+     ├─upstart-udev-br
+     ├─wnck-applet───{wnck-applet}
+     └─wpa_supplicant
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ sleep 600 &
+[1] 21501
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ps
+  PID TTY          TIME CMD
+21481 pts/4    00:00:00 bash
+21490 pts/4    00:00:00 bash
+21501 pts/4    00:00:00 sleep
+21502 pts/4    00:00:00 ps
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ kill 21501
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ touch file1
+[1]+  Terminated              sleep 600
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ls -l file1
+-rwxrwxrwx 1 nikki nikki 7 2012-01-29 17:52 [0m[01;32mfile1[0m
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ chmod 76[K45[K[K55 file1
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ls -l file1
+-rwxr-xr-x 1 nikki nikki 7 2012-01-29 17:52 [0m[01;32mfile1[0m
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ chmod a=rwx file2[K1
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ls -l file1
+-rwxrwxrwx 1 nikki nikki 7 2012-01-29 17:52 [0m[01;32mfile1[0m
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ cd /
+]0;nikki@boombox: /[01;32mnikki@boombox[00m:[01;34m/[00m$ pwd
+/
+]0;nikki@boombox: /[01;32mnikki@boombox[00m:[01;34m/[00m$ cd .h[K[K/ome[K[K[Khome
+]0;nikki@boombox: /home[01;32mnikki@boombox[00m:[01;34m/home[00m$ pwd
+/home
+]0;nikki@boombox: /home[01;32mnikki@boombox[00m:[01;34m/home[00m$ cd $HOME
+]0;nikki@boombox: ~[01;32mnikki@boombox[00m:[01;34m~[00m$ pwd
+/home/nikki
+]0;nikki@boombox: ~[01;32mnikki@boombox[00m:[01;34m~[00m$ cd ~$USER
+bash: cd: ~nikki: No such file or directory
+]0;nikki@boombox: ~[01;32mnikki@boombox[00m:[01;34m~[00m$ pwd
+/home/nikki
+]0;nikki@boombox: ~[01;32mnikki@boombox[00m:[01;34m~[00m$ env
+ORBIT_SOCKETDIR=/tmp/orbit-nikki
+GPG_AGENT_INFO=/tmp/seahorse-10rBuq/S.gpg-agent:1283:1
+TERM=xterm
+SHELL=/bin/bash
+XDG_SESSION_COOKIE=a745cd96748a2138e876d9734c91c384-1327262717.420978-1379856145
+PT5HOME=/opt/pt
+WINDOWID=73400349
+GNOME_KEYRING_CONTROL=/tmp/keyring-dTkaW3
+GTK_MODULES=canberra-gtk-module
+USER=nikki
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+SSH_AUTH_SOCK=/tmp/keyring-dTkaW3/ssh
+SESSION_MANAGER=local/boombox:@/tmp/.ICE-unix/1138,unix/boombox:/tmp/.ICE-unix/1138
+USERNAME=nikki
+DEFAULTS_PATH=/usr/share/gconf/gnome.default.path
+XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome:/etc/xdg
+PATH=/var/lib/gems/1.8/bin:/var/lib/gems/1.8/bin:/var/lib/gems/1.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+DESKTOP_SESSION=gnome
+PWD=/home/nikki
+GDM_KEYBOARD_LAYOUT=us
+LANG=en_US.UTF-8
+GDM_LANG=en_US.utf8
+MANDATORY_PATH=/usr/share/gconf/gnome.mandatory.path
+UBUNTU_MENUPROXY=libappmenu.so
+COMPIZ_CONFIG_PROFILE=ubuntu
+GDMSESSION=gnome
+SPEECHD_PORT=7560
+SHLVL=3
+HOME=/home/nikki
+LANGUAGE=en_US:en
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LOGNAME=nikki
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-PFGAg7IVNW,guid=a98ce14ce5661ca15de287410000001e
+LESSOPEN=| /usr/bin/lesspipe %s
+WINDOWPATH=7
+DISPLAY=:0.0
+RUBYOPT=rubygems
+LESSCLOSE=/usr/bin/lesspipe %s %s
+COLORTERM=gnome-terminal
+XAUTHORITY=/var/run/gdm/auth-for-nikki-DxTu33/database
+_=/usr/bin/env
+OLDPWD=/home
+]0;nikki@boombox: ~[01;32mnikki@boombox[00m:[01;34m~[00m$ echo $PATH
+/var/lib/gems/1.8/bin:/var/lib/gems/1.8/bin:/var/lib/gems/1.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+]0;nikki@boombox: ~[01;32mnikki@boombox[00m:[01;34m~[00m$ PATH=$PATH:$HOME:/[K.
+]0;nikki@boombox: ~[01;32mnikki@boombox[00m:[01;34m~[00m$ echo $PATH
+/var/lib/gems/1.8/bin:/var/lib/gems/1.8/bin:/var/lib/gems/1.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/nikki:.
+]0;nikki@boombox: ~[01;32mnikki@boombox[00m:[01;34m~[00m$ ewh[K[K[Kwho > file2
+]0;nikki@boombox: ~[01;32mnikki@boombox[00m:[01;34m~[00m$ cat file1 file2 > [K> file3
+cat: file1: No such file or directory
+]0;nikki@boombox: ~[01;32mnikki@boombox[00m:[01;34m~[00m$ cd Documents/classes/68B_linux/
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ cat file1 file2 [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kwho > file2
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ls
+errors  [0m[01;32mfile1[0m  file2  file3  lab1  [01;34mwork[0m
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ cat file1 file2 >> file[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm file3
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ cat file1 file2 >> file3
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ fine[Kd / -name files =[K-print 2> errr[Kors
+/usr/share/doc/python-launchpadlib/docs/files
+/usr/share/system-tools-backends-2.0/files
+/usr/share/lintian/checks/files
+/usr/share/lintian/data/files
+/usr/lib/ruby/gems/1.8/doc/rubygems-update-1.4.2/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/rubygame-2.6.4/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/gosu-0.7.26.1/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/mysql2-0.2.6/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/passenger-3.0.2/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/ruby-sdl-ffi-0.3/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/spruz-0.2.2/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/rest-client-1.6.1/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/daemon_controller-0.2.5/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/crack-0.1.8/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/nice-ffi-0.4/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/rvm-1.6.20/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/mysql-2.8.1/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/chingu-0.8.1/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/file-tail-1.0.5/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/ffi-1.0.5/rdoc/files
+/usr/lib/ruby/gems/1.8/doc/fastthread-1.0.7/rdoc/files
+/usr/lib/ruby/gems/1.8/gems/erubis-2.6.6/doc-api/files
+/home/nikki/nikki_old/htdocs/files
+/home/nikki/.local/share/Trash/files
+/home/nikki/.macromedia/Flash_Player/#SharedObjects/AJ7VNNT4/www.ucbcomedy.com/files
+/home/nikki/PacketTracer53/extensions/PTUpdater/files
+/var/lib/gems/1.8/doc/xml-simple-1.0.12/rdoc/files
+/var/lib/gems/1.8/doc/rake-0.8.7/rdoc/files
+/var/lib/gems/1.8/doc/commonwatir-1.7.0/rdoc/files
+/var/lib/gems/1.8/doc/activesupport-2.3.9/rdoc/files
+/var/lib/gems/1.8/doc/builder-3.0.0/rdoc/files
+/var/lib/gems/1.8/doc/hoe-2.8.0/rdoc/files
+/var/lib/gems/1.8/doc/user-choices-1.1.6.1/rdoc/files
+/var/lib/gems/1.8/doc/s4t-utils-1.0.4/rdoc/files
+/var/lib/gems/1.8/doc/firewatir-1.7.0/rdoc/files
+/opt/pt/extensions/PTUpdater/files
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ls
+errors  [0m[01;32mfile1[0m  file2  file3  lab1  [01;34mwork[0m
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ more errors 
+find: `/sys/kernel/debug': Permission denied
+find: `/proc/tty/driver': Permission denied
+find: `/proc/1/task/1/fd': Permission denied
+find: `/proc/1/task/1/fdinfo': Permission denied
+find: `/proc/1/fd': Permission denied
+find: `/proc/1/fdinfo': Permission denied
+find: `/proc/2/task/2/fd': Permission denied
+find: `/proc/2/task/2/fdinfo': Permission denied
+find: `/proc/2/fd': Permission denied
+find: `/proc/2/fdinfo': Permission denied
+find: `/proc/3/task/3/fd': Permission denied
+find: `/proc/3/task/3/fdinfo': Permission denied
+find: `/proc/3/fd': Permission denied
+find: `/proc/3/fdinfo': Permission denied
+find: `/proc/6/task/6/fd': Permission denied
+find: `/proc/6/task/6/fdinfo': Permission denied
+find: `/proc/6/fd': Permission denied
+find: `/proc/6/fdinfo': Permission denied
+find: `/proc/17/task/17/fd': Permission denied
+find: `/proc/17/task/17/fdinfo': Permission denied
+find: `/proc/17/fd': Permission denied
+find: `/proc/17/fdinfo': Permission denied
+find: `/proc/18/task/18/fd': Permission denied
+find: `/proc/18/task/18/fdinfo': Permission denied
+find: `/proc/18/fd': Permission denied
+find: `/proc/18/fdinfo': Permission denied
+find: `/proc/19/task/19/fd': Permission denied
+find: `/proc/19/task/19/fdinfo': Permission denied
+find: `/proc/19/fd': Permission denied
+find: `/proc/19/fdinfo': Permission denied
+find: `/proc/21/task/21/fd': Permission denied
+find: `/proc/21/task/21/fdinfo': Permission denied
+find: `/proc/21/fd': Permission denied
+find: `/proc/21/fdinfo': Permission denied
+find: `/proc/22/task/22/fd': Permission denied
+find: `/proc/22/task/22/fdinfo': Permission denied
+find: `/proc/22/fd': Permission denied
+[7m--More--(4%)[27m[K]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ 
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ 
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ clear
+[H[2J]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ exit
+exit
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ exit
+exit
+
+Script done on Sun 29 Jan 2012 05:56:04 PM PST

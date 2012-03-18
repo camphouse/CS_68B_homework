@@ -1,0 +1,18 @@
+Script started on Sat 10 Mar 2012 04:39:32 PM PST
+]0;nikki@boombox: ~/bash_hw/5_chap_5[01;32mnikki@boombox[00m:[01;34m~/bash_hw/5_chap_5[00m$ sed -f sedding2 datafile | bash -x
++ northern WE Sharon Gray 5.3 .97 5 23
+bash: line 1: northern: command not found
++ northern WE Sharon Gray 5.3 .97 5 23
+bash: line 2: northern: command not found
++ southwest SW Lewis Dalsass 2.7 .8 2 18
+bash: line 3: southwest: command not found
++ southern SO Suan Chin 5.1 .95 4 15
+bash: line 4: southern: command not found
++ southeast SE Patricia Hemenway 4.0 .7 4 17
+bash: line 5: southeast: command not found
++ eastern EA TB Savage 4.4 .84 5 20
+bash: line 6: eastern: command not found
+]0;nikki@boombox: ~/bash_hw/5_chap_5[01;32mnikki@boombox[00m:[01;34m~/bash_hw/5_chap_5[00m$ exit
+exit
+
+Script done on Sat 10 Mar 2012 04:40:03 PM PST

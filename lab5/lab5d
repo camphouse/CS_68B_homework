@@ -1,0 +1,65 @@
+Script started on Tue 21 Feb 2012 01:52:04 AM PST
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x op[K[K./opts3.sh -x
++ getopts dq: options
+./opts3.sh: illegal option -- x
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -xy
++ getopts dq: options
+./opts3.sh: illegal option -- x
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+./opts3.sh: illegal option -- y
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -xy[K[Ky
++ getopts dq: options
+./opts3.sh: illegal option -- y
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -y[Kb
++ getopts dq: options
+./opts3.sh: illegal option -- b
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -b[Kd
++ getopts dq: options
++ case $options in
++ echo 'you entered -d as an option'
+you entered -d as an option
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -dq
++ getopts dq: options
++ case $options in
++ echo 'you entered -d as an option'
+you entered -d as an option
++ getopts dq: options
+./opts3.sh: option requires an argument -- q
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -dq file_[K[Ke
++ getopts dq: options
++ case $options in
++ echo 'you entered -d as an option'
+you entered -d as an option
++ getopts dq: options
++ case $options in
++ echo 'the argument for -q is file'
+the argument for -q is file
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ exit
+exit
+
+Script done on Tue 21 Feb 2012 01:53:05 AM PST

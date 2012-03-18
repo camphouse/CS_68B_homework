@@ -1,0 +1,197 @@
+Script started on Tue 21 Feb 2012 01:38:03 AM PST
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ ./permx.sh backup.sh 
+You may now execute backup.sh
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ ls -la[K backup.sh 
+-rwxr-xr-x 1 nikki nikki 304 2012-02-21 01:36 [0m[01;32mbackup.sh[0m
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ ./backup.sh 
+backups complete
+backup.sh is backed up in /home/nikki/backups
+1 backups complete
+bigfiles.sh is backed up in /home/nikki/backups
+2 backups complete
+ch14_offline_notes is backed up in /home/nikki/backups
+3 backups complete
+check_null.sh is backed up in /home/nikki/backups
+4 backups complete
+check_showmount.sh is backed up in /home/nikki/backups
+5 backups complete
+create_sample_files.sh is backed up in /home/nikki/backups
+6 backups complete
+6 backups complete
+6 backups complete
+errors is backed up in /home/nikki/backups
+7 backups complete
+7 backups complete
+file is backed up in /home/nikki/backups
+8 backups complete
+file1.txt is backed up in /home/nikki/backups
+9 backups complete
+file2.txt is backed up in /home/nikki/backups
+10 backups complete
+filetest is backed up in /home/nikki/backups
+11 backups complete
+filex is backed up in /home/nikki/backups
+12 backups complete
+filey is backed up in /home/nikki/backups
+13 backups complete
+13 backups complete
+greetings.sh is backed up in /home/nikki/backups
+14 backups complete
+lab3.sh is backed up in /home/nikki/backups
+15 backups complete
+lab4 is backed up in /home/nikki/backups
+16 backups complete
+lab4.sh is backed up in /home/nikki/backups
+17 backups complete
+lab5 is backed up in /home/nikki/backups
+18 backups complete
+new-test-file-name is backed up in /home/nikki/backups
+19 backups complete
+noexperm.txt is backed up in /home/nikki/backups
+20 backups complete
+20 backups complete
+ok.sh is backed up in /home/nikki/backups
+21 backups complete
+permx.sh is backed up in /home/nikki/backups
+22 backups complete
+project1 is backed up in /home/nikki/backups
+23 backups complete
+project1.sh is backed up in /home/nikki/backups
+24 backups complete
+test-file-name is backed up in /home/nikki/backups
+25 backups complete
+25 backups complete
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ exit
+exit
+
+Script done on Tue 21 Feb 2012 01:39:04 AM PST
+Script started on Tue 21 Feb 2012 01:40:35 AM PST
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ pe[K[K./permx.sh step3.sh 
+You may now execute step3.sh
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ ./step3.sh nikki
+nikki    tty7         2012-02-17 21:21 (:0)
+nikki    pts/0        2012-02-18 15:08 (:0.0)
+nikki    pts/1        2012-02-20 23:29 (:0.0)
+nikki    pts/3        2012-02-20 19:30 (:0.0)
+nikki    pts/5        2012-02-20 22:10 (:0.0)
+nikki has logged on
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ ./step3.sh nikki[K[K[K[K[Kroot
+waiting for root
+waiting for root
+waiting for root
+waiting for root
+waiting for root
+waiting for root
+^C
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ exit
+exit
+
+Script done on Tue 21 Feb 2012 01:42:04 AM PST
+Script started on Tue 21 Feb 2012 01:45:17 AM PST
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ ./runit.sh 
+1) ls -F
+2) pwd
+3) date
+4) cal
+5) exit
+Select a program to execute: 1
+backup/		    check_showmount.sh*      fake/	 filex*		  lab4	    new-test-file-name*  project1	 weird_perms/
+backup.sh*	    create_sample_files.sh*  file*	 filey*		  lab4.sh*  noexperm.txt	 project1.sh*
+bigfiles.sh*	    empty_dir/		     file1.txt*  full_files_dir/  lab5	    no_files_dir/	 runit.sh*
+ch14_offline_notes  empty_files_dir/	     file2.txt*  greetings.sh*	  lab5a     ok.sh*		 step3.sh*
+check_null.sh*	    errors		     filetest	 lab3.sh*	  lab5b     permx.sh*		 test-file-name
+Select a program to execute: 2
+/home/nikki/bash_hw
+Select a program to execute: 3
+Tue Feb 21 01:45:23 PST 2012
+Select a program to execute: 4
+   February 2012      
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 [7m21[27m 22 23 24 25  
+26 27 28 29           
+                      
+Select a program to execute: 5
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ exit
+exit
+
+Script done on Tue 21 Feb 2012 01:45:28 AM PST
+Script started on Tue 21 Feb 2012 01:46:53 AM PST
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ ./dater.sh 
+Tue
+Feb
+21
+01:46:57
+PST
+2012
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ exit
+exit
+
+Script done on Tue 21 Feb 2012 01:47:10 AM PST
+Script started on Tue 21 Feb 2012 01:52:04 AM PST
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x op[K[K./opts3.sh -x
++ getopts dq: options
+./opts3.sh: illegal option -- x
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -xy
++ getopts dq: options
+./opts3.sh: illegal option -- x
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+./opts3.sh: illegal option -- y
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -xy[K[Ky
++ getopts dq: options
+./opts3.sh: illegal option -- y
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -y[Kb
++ getopts dq: options
+./opts3.sh: illegal option -- b
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -b[Kd
++ getopts dq: options
++ case $options in
++ echo 'you entered -d as an option'
+you entered -d as an option
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -dq
++ getopts dq: options
++ case $options in
++ echo 'you entered -d as an option'
+you entered -d as an option
++ getopts dq: options
+./opts3.sh: option requires an argument -- q
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -dq file_[K[Ke
++ getopts dq: options
++ case $options in
++ echo 'you entered -d as an option'
+you entered -d as an option
++ getopts dq: options
++ case $options in
++ echo 'the argument for -q is file'
+the argument for -q is file
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ exit
+exit
+
+Script done on Tue 21 Feb 2012 01:53:05 AM PST

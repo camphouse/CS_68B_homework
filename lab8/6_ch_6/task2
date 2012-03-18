@@ -1,0 +1,5 @@
+Programming Task:
+
+Create a script using awk that will put quotes around all non-numeric fields (fields 1, 2, and 3) in the file named datafile.  Fields with numeric data should not be quoted (fields 4, 5 and 6).
+
+You can use the datafile file that you downloaded from this lab or you can create your own datafile file using any of the datafile versions in chapter 6 (datafile pp. 178 or datafile2 pp. 184).  Indicate which file you used for your script as a comment in the script. 

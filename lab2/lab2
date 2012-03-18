@@ -1,0 +1,198 @@
+Script started on Sun 29 Jan 2012 06:23:13 PM PST
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ touch abc1
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ touch .[Ka[K[K[K[K[K[K[K^V[Ktouch a.c
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ touch ab3
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ls *
+ab3  abc1  a.c  errors  [0m[01;32mfile1[0m  file2  file3  lab1  [01;32mlab1.sh[0m  lab2  login_times
+
+work:
+[01;32mmyfirstscript[0m
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ach[K[K[Kecho a*
+ab3 abc1 a.c
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ls a?c
+a.c
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ls ????
+abc1  lab1  lab2
+
+work:
+[0m[01;32mmyfirstscript[0m
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ls a?c?
+abc1
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ a[Kecho abc???
+abc???
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo >>[K[K????
+abc1 lab1 lab2 work
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo ??
+??
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ls ac[Knbc[K[K[Kbx[Kc[123]
+abc1
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ls [!f-z]???
+abc1
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ls a{.c,c,b,[K[3-5]}
+ls: cannot access ac: No such file or directory
+ab3  a.c
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ re[K[Kecho \????
+????
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo "[KWhen does this line \ [K
+> ever end\?
+When does this line ever end?
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo ????\[K
+abc1 lab1 lab2 work
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # [Kthis is ac[K comment
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ #this is a comment \ echo here is a not comment
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ 
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ 
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ name = Tommy
+No command 'name' found, did you mean:
+ Command 'named' from package 'bind9' (main)
+ Command 'namei' from package 'util-linux' (main)
+ Command 'lame' from package 'lame' (universe)
+ Command 'cname' from package 'cfs' (universe)
+ Command 'uname' from package 'coreutils' (main)
+ Command 'nama' from package 'nama' (universe)
+ Command 'mame' from package 'mame' (universe)
+ Command 'nam' from package 'nam' (universe)
+name: command not found
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ name=Tommy
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ declae[Kre NAME=Tom
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ #d[K display value sof [K[K[K[K[Ks of local variables with echo
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo {#[K$name $NAME}
+{Tommy Tom}
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # open a new shell and djs[Ki[K[Kisplay values of local variables wt[Kith echo
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ bash
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo {$name $NAME}
+{ }
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # exit new shel [Kl and retr[Kr[Kurn t o[K[Ko login shell
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ exit
+exit
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # display name sof v[K[K[K[K[K[Ks of variables and export variables
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ re[K[Kecho {$name $NAE[KME}
+{Tommy Tom}
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ ecxh[K[K[Kxport name
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ op[K[K# open a new shell
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ bash
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # display gloval a[K[K[K[K[Kbal and local vai[Kra[Kiables
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo {$name $NAME}
+{Tommy }
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # exit the new shell and return ti [K[Ko the login shell
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ exit
+exit
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # cn[Khange name variable tro [K[K[Ko readonly
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ readonly name
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo $name
+Tommy
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # attemt[Kpt to unset readou[Knly variable
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ unsert [K[K[Kt name
+bash: unset: name: cannot unset: readonly variable
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ name=JO[Koe
+bash: name: readonly variable
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # dew[Kclare city as a readonly variable
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ decalre [K[K[K[K[Klare -r city='Santa Clara'
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # attempt to unset reaodnly on[K[K[K[K[K[K[K[K[Kadonly variable
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ unset city
+bash: unset: city: cannot unset: readonly variable
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # decal[K[Klare the city variable to chnage[K[K[K[Kange its value
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ declare city="San FD[Krancisco"
+bash: declare: city: readonly variable
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo $city
+Santa Clara
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # use printf to [K[K[Kwith \n to s[Kdisplay a string on multiple lines
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ printf "Two sepaa[Krate \n lines \n"
+Two separate 
+ lines 
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ printf "%s\n" "Two separate " [K[K[K" "lines"
+Two separate
+lines
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ printf "%s\n" "Two separate" "lines" "more"
+Two separate
+lines
+more
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ printf "%s\n" * 
+ab3
+abc1
+a.c
+errors
+file1
+file2
+file3
+lab1
+lab1.sh
+lab2
+login_times
+work
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # declare numeric variable
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ declare -i NUMBER_ACCOUNTS=15[K[K[K="15"
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ declare =[K-pr [K[K NUMBER_ACCOUNTS
+declare -i NUMBER_ACCOUNTS="15"
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # de[Kisplay the value of a numeric variable using printf
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ printf "%s[Kd\n"[K[K[K\n" "$NUME[KBER_ACCOUNTS"
+15
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # reom[K[Kmove the data type from a caria[K[K[K[K[Kvariable
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ delcare[K[K[K[K[Kclare +i NUMBER_ACCOUNTS
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # display the r[Kdata type of a vair[K[Krai[K[Kiable
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ declare =[K-r[Kp "[KNUMBER_ACCOUNTS
+declare -- NUMBER_ACCOUNTS="15"
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ use printf to display a a[Kvariable as numeric and string n[Kdata
+No command 'use' found, did you mean:
+ Command 'nse' from package 'ns2' (universe)
+ Command 'muse' from package 'muse' (universe)
+ Command 'uae' from package 'uae' (multiverse)
+use: command not found
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ use printf to display a variable as numeric and string data[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@#[1@ 
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ prinf [K[Ktf"[K "%i][K\n" "$NUMNBER[K[K[K[KER[KB[K[KBER_ACOU[KCOUN[K[K[K[K[KCOUNTS"
+15
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ printf "%i\n" "$NUMBER_ACCOUNTS"[C[C[C[C[C[C[C[C[C[C[C[1P[1@s
+15
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$  [K# set positional parameters [K[K valiues[K[K[K[Kues using set
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ set punky tim[K[K[Ktomm y[K[Ky bert jody
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # use echo to displa [Ky values of positinal [K[K[K[Konal parameters
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo $*
+punky tommy bert jody
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo $1
+punky
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo $2 $3
+tommy bert
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ set val[K[K[K[K[K[K[K# set values to positional parameters using set
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ set a c[Kv x[K[K[Kb c d e f g h i j k  [Kl m
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # display values of positj[Kional parameters i[Kusing r[Kprintf
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ printf $10
+a0]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ printf {$10}{$11}
+{a0}{a1}]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ printf ${10}${11}
+jk]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ printf $10
+a0]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ printf $10{10[C[C}
+j]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # use echo to display a a[Kstring
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo "if i forget 
+> the end qut[Kote,
+> echo keeps waiting.
+> ' #end[K[K[K end string with closing single quote
+> '
+> '
+> ^C
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ wh[K[Kecho 'Hey $name [K, the time is $(fda[K[K[Kdate)"[K'
+Hey $name, the time is $(date)
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo "Hey $name, the time is "[K$(date)"
+Hey Tommy, the time is Sun Jan 29 18:57:22 PST 2012
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo "Hey $name, the time is $(date)"[1Pdate)"[C[C[C[C[C[1P"
+Hey Tommy, the time is 
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo here is a # char
+here is a
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # practice simpole[K[K[Kle arithem[K[Kmetic
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo ${[K[5 + 4 - 2]
+7
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo $[5 - [K[K+ 3 * 2]
+11
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # use parentheses to change the r[Kpor[K[K[Korder of operations
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo #[K$[(5+[K + 3) * 2]
+16
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ # use double parente[Kheses instead of bar[K[Krackets for arithe[Kmetic expansion
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo $((5+4)))[K
+9
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo $(5 + 4)
+5: command not found
+
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ echo $((5/0))
+bash: 5/0: division by 0 (error token is "0")
+]0;nikki@boombox: ~/Documents/classes/68B_linux[01;32mnikki@boombox[00m:[01;34m~/Documents/classes/68B_linux[00m$ exit
+exit
+
+Script done on Sun 29 Jan 2012 07:26:31 PM PST
