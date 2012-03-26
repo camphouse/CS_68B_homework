@@ -1,0 +1,15 @@
+Script started on Sun Mar 18 21:31:37 2012
+[0;32mcontextoptional[m [1;34m~/Documents/classes/winter 2012/CS_68B_homework/project2[m [1;32m$[m [1;37mman [K[K[K[Kpro
+procmail     procsystime  profiles     projectInfo  prove        prove5.10.0  prove5.8.9   provider     
+[0;32mcontextoptional[m [1;34m~/Documents/classes/winter 2012/CS_68B_homework/project2[m [1;32m$[m [1;37mpro[Kint
+printenv  printf    
+[0;32mcontextoptional[m [1;34m~/Documents/classes/winter 2012/CS_68B_homework/project2[m [1;32m$[m [1;37mprintf[K[K[K[K[K[K./move/s[K[K.sh c[Ktax*.xls
+creating /Users/contextoptional/completed/
+moving files: tax.xls tax1.xls tax10.xls tax2.xls tax3.xls tax4.xls tax5.xls tax6.xls tax7.xls tax8.xls tax9.xls
+[0;32mcontextoptional[m [1;34m~/Documents/classes/winter 2012/CS_68B_homework/project2[m [1;32m$[m [1;37mcd ~/completed/
+[0;32mcontextoptional[m [1;34m~/completed[m [1;32m$[m [1;37mls
+tax.xls   tax1.xls  tax10.xls tax2.xls  tax3.xls  tax4.xls  tax5.xls  tax6.xls  tax7.xls  tax8.xls  tax9.xls
+[0;32mcontextoptional[m [1;34m~/completed[m [1;32m$[m [1;37mexit
+exit
+
+Script done on Sun Mar 18 21:32:22 2012
