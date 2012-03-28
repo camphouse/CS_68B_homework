@@ -1,0 +1,111 @@
+Script started on Mon 20 Feb 2012 11:36:17 PM PST
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x projectx[K.[K1.[K.sh full_files_dir/[K
++ args=1
++ case $args in
++ dirname=full_files_dir
+++ find / -name full_files_dir -type d
++ dirpath=/home/nikki/bash_hw/full_files_dir
++ [[ /home/nikki/bash_hw/full_files_dir = '' ]]
++ declare -a filenames
+++ find /home/nikki/bash_hw/full_files_dir -empty -exec ls '{}' ';'
++ filenames=
++ [[ '' = '' ]]
++ echo 'No files in full_files_dir. Exiting script'
+No files in full_files_dir. Exiting script
++ exit 0
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x project1.sh full_files_dir[K[K[K[K[K[K[K[K[K[K[K[K[K[K-f empty_files_dir/
++ args=2
++ case $args in
++ [[ -f = \-\f ]]
++ autodelete=true
++ dirname=empty_files_dir/
+++ find / -name empty_files_dir/ -type d
++ dirpath=
++ [[ '' = '' ]]
++ echo 'empty_files_dir/ does not exist. Please run project1.sh with an existing directory'
+empty_files_dir/ does not exist. Please run project1.sh with an existing directory
++ exit 1
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x project1.sh -f empty_files_dir/[K
++ args=2
++ case $args in
++ [[ -f = \-\f ]]
++ autodelete=true
++ dirname=empty_files_dir
+++ find / -name empty_files_dir -type d
++ dirpath=/home/nikki/bash_hw/empty_files_dir
++ [[ /home/nikki/bash_hw/empty_files_dir = '' ]]
++ declare -a filenames
+++ find /home/nikki/bash_hw/empty_files_dir -empty -exec ls '{}' ';'
++ filenames='/home/nikki/bash_hw/empty_files_dir/empty2
+/home/nikki/bash_hw/empty_files_dir/empty5
+/home/nikki/bash_hw/empty_files_dir/empty1
+/home/nikki/bash_hw/empty_files_dir/empty3
+/home/nikki/bash_hw/empty_files_dir/empty6
+/home/nikki/bash_hw/empty_files_dir/empty4
+/home/nikki/bash_hw/empty_files_dir/empty7
+/home/nikki/bash_hw/empty_files_dir/empty8'
++ [[ /home/nikki/bash_hw/empty_files_dir/empty2
+/home/nikki/bash_hw/empty_files_dir/empty5
+/home/nikki/bash_hw/empty_files_dir/empty1
+/home/nikki/bash_hw/empty_files_dir/empty3
+/home/nikki/bash_hw/empty_files_dir/empty6
+/home/nikki/bash_hw/empty_files_dir/empty4
+/home/nikki/bash_hw/empty_files_dir/empty7
+/home/nikki/bash_hw/empty_files_dir/empty8 = '' ]]
++ [[ -n true ]]
++ printf 'Deleting the following empty files:\n'
+Deleting the following empty files:
++ echo '/home/nikki/bash_hw/empty_files_dir/empty2
+/home/nikki/bash_hw/empty_files_dir/empty5
+/home/nikki/bash_hw/empty_files_dir/empty1
+/home/nikki/bash_hw/empty_files_dir/empty3
+/home/nikki/bash_hw/empty_files_dir/empty6
+/home/nikki/bash_hw/empty_files_dir/empty4
+/home/nikki/bash_hw/empty_files_dir/empty7
+/home/nikki/bash_hw/empty_files_dir/empty8'
+/home/nikki/bash_hw/empty_files_dir/empty2
+/home/nikki/bash_hw/empty_files_dir/empty5
+/home/nikki/bash_hw/empty_files_dir/empty1
+/home/nikki/bash_hw/empty_files_dir/empty3
+/home/nikki/bash_hw/empty_files_dir/empty6
+/home/nikki/bash_hw/empty_files_dir/empty4
+/home/nikki/bash_hw/empty_files_dir/empty7
+/home/nikki/bash_hw/empty_files_dir/empty8
++ for filename in '$filenames'
++ rm /home/nikki/bash_hw/empty_files_dir/empty2
++ for filename in '$filenames'
++ rm /home/nikki/bash_hw/empty_files_dir/empty5
++ for filename in '$filenames'
++ rm /home/nikki/bash_hw/empty_files_dir/empty1
++ for filename in '$filenames'
++ rm /home/nikki/bash_hw/empty_files_dir/empty3
++ for filename in '$filenames'
++ rm /home/nikki/bash_hw/empty_files_dir/empty6
++ for filename in '$filenames'
++ rm /home/nikki/bash_hw/empty_files_dir/empty4
++ for filename in '$filenames'
++ rm /home/nikki/bash_hw/empty_files_dir/empty7
++ for filename in '$filenames'
++ rm /home/nikki/bash_hw/empty_files_dir/empty8
++ echo 'All empty files deleted.'
+All empty files deleted.
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x project1.sh -f empty_files_dir[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kno[K[K[K[K[Kno[K[K-f no_files_dir
++ args=2
++ case $args in
++ [[ -f = \-\f ]]
++ autodelete=true
++ dirname=no_files_dir
+++ find / -name no_files_dir -type d
++ dirpath=/home/nikki/bash_hw/no_files_dir
++ [[ /home/nikki/bash_hw/no_files_dir = '' ]]
++ declare -a filenames
+++ find /home/nikki/bash_hw/no_files_dir -empty -exec ls '{}' ';'
++ filenames=
++ [[ '' = '' ]]
++ echo 'No files in no_files_dir. Exiting script'
+No files in no_files_dir. Exiting script
++ exit 0
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ exit
+exit
+
+Script done on Mon 20 Feb 2012 11:37:54 PM PST

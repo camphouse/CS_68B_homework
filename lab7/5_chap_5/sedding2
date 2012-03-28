@@ -1,0 +1,5 @@
+#!/bin/bash
+# sedding2
+$d
+/north/d
+s/^west/north/p

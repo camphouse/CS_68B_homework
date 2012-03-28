@@ -1,0 +1,11 @@
+#!/bin/bash
+# sedding1
+/Lewis/a\
+	Lewis is the TOP Salesperson for April!!\
+	Lewis is moving to the southern district next month.\
+	Congratulations!
+/Margot/c\
+	MARGOT HAS RETIRED
+1i\
+	EMPLOYEE DATABASE
+$d

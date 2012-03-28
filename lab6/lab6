@@ -1,0 +1,212 @@
+Script started on Sun 26 Feb 2012 01:39:20 PM PST
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ ps -ef | grep root
+[01;31m[Kroot[m[K         1     0  0 Feb17 ?        00:00:02 /sbin/init
+[01;31m[Kroot[m[K         2     0  0 Feb17 ?        00:00:00 [kthreadd]
+[01;31m[Kroot[m[K         3     2  0 Feb17 ?        00:00:16 [ksoftirqd/0]
+[01;31m[Kroot[m[K         6     2  0 Feb17 ?        00:00:00 [migration/0]
+[01;31m[Kroot[m[K        17     2  0 Feb17 ?        00:00:00 [cpuset]
+[01;31m[Kroot[m[K        18     2  0 Feb17 ?        00:00:00 [khelper]
+[01;31m[Kroot[m[K        19     2  0 Feb17 ?        00:00:00 [netns]
+[01;31m[Kroot[m[K        21     2  0 Feb17 ?        00:00:00 [sync_supers]
+[01;31m[Kroot[m[K        22     2  0 Feb17 ?        00:00:00 [bdi-default]
+[01;31m[Kroot[m[K        23     2  0 Feb17 ?        00:00:00 [kintegrityd]
+[01;31m[Kroot[m[K        24     2  0 Feb17 ?        00:00:00 [kblockd]
+[01;31m[Kroot[m[K        25     2  0 Feb17 ?        00:00:00 [kacpid]
+[01;31m[Kroot[m[K        26     2  0 Feb17 ?        00:00:00 [kacpi_notify]
+[01;31m[Kroot[m[K        27     2  0 Feb17 ?        00:00:00 [kacpi_hotplug]
+[01;31m[Kroot[m[K        28     2  0 Feb17 ?        00:00:00 [ata_sff]
+[01;31m[Kroot[m[K        29     2  0 Feb17 ?        00:00:00 [khubd]
+[01;31m[Kroot[m[K        30     2  0 Feb17 ?        00:00:00 [md]
+[01;31m[Kroot[m[K        33     2  0 Feb17 ?        00:00:00 [khungtaskd]
+[01;31m[Kroot[m[K        34     2  0 Feb17 ?        00:00:10 [kswapd0]
+[01;31m[Kroot[m[K        35     2  0 Feb17 ?        00:00:00 [ksmd]
+[01;31m[Kroot[m[K        36     2  0 Feb17 ?        00:00:00 [fsnotify_mark]
+[01;31m[Kroot[m[K        37     2  0 Feb17 ?        00:00:00 [aio]
+[01;31m[Kroot[m[K        38     2  0 Feb17 ?        00:00:00 [ecryptfs-kthrea]
+[01;31m[Kroot[m[K        39     2  0 Feb17 ?        00:00:00 [crypto]
+[01;31m[Kroot[m[K        43     2  0 Feb17 ?        00:00:00 [kthrotld]
+[01;31m[Kroot[m[K        45     2  0 Feb17 ?        00:00:00 [kmpathd]
+[01;31m[Kroot[m[K        46     2  0 Feb17 ?        00:00:00 [kmpath_handlerd]
+[01;31m[Kroot[m[K        47     2  0 Feb17 ?        00:00:00 [kondemand]
+[01;31m[Kroot[m[K        48     2  0 Feb17 ?        00:00:00 [kconservative]
+[01;31m[Kroot[m[K       202     2  0 Feb17 ?        00:00:00 [scsi_eh_0]
+[01;31m[Kroot[m[K       203     2  0 Feb17 ?        00:00:00 [scsi_eh_1]
+[01;31m[Kroot[m[K       204     2  0 Feb17 ?        00:00:00 [scsi_eh_2]
+[01;31m[Kroot[m[K       205     2  0 Feb17 ?        00:00:00 [scsi_eh_3]
+[01;31m[Kroot[m[K       206     2  0 Feb17 ?        00:00:00 [scsi_eh_4]
+[01;31m[Kroot[m[K       207     2  0 Feb17 ?        00:00:00 [scsi_eh_5]
+[01;31m[Kroot[m[K       235     2  0 Feb17 ?        00:00:12 [jbd2/sda5-8]
+[01;31m[Kroot[m[K       236     2  0 Feb17 ?        00:00:00 [ext4-dio-unwrit]
+[01;31m[Kroot[m[K       290     1  0 Feb17 ?        00:00:00 upstart-udev-bridge --daemon
+[01;31m[Kroot[m[K       296     1  0 Feb17 ?        00:00:00 udevd --daemon
+[01;31m[Kroot[m[K       415     2  0 Feb17 ?        00:00:01 [ips-adjust]
+[01;31m[Kroot[m[K       429     2  0 12:10 ?        00:00:00 [kworker/u:3]
+[01;31m[Kroot[m[K       430     2  0 Feb17 ?        00:00:15 [ips-monitor]
+[01;31m[Kroot[m[K       444     2  0 12:44 ?        00:00:00 [migration/1]
+[01;31m[Kroot[m[K       446     2  0 12:44 ?        00:00:00 [ksoftirqd/1]
+[01;31m[Kroot[m[K       447     2  0 12:44 ?        00:00:00 [migration/2]
+[01;31m[Kroot[m[K       448     2  0 12:44 ?        00:00:00 [kworker/2:2]
+[01;31m[Kroot[m[K       449     2  0 12:44 ?        00:00:00 [ksoftirqd/2]
+[01;31m[Kroot[m[K       450     2  0 12:44 ?        00:00:00 [migration/3]
+[01;31m[Kroot[m[K       451     2  0 12:44 ?        00:00:00 [kworker/3:1]
+[01;31m[Kroot[m[K       452     2  0 12:44 ?        00:00:00 [ksoftirqd/3]
+[01;31m[Kroot[m[K       453     2  0 12:44 ?        00:00:00 [kworker/1:0]
+[01;31m[Kroot[m[K       463     2  0 12:44 ?        00:00:00 [kworker/u:20]
+[01;31m[Kroot[m[K       464     2  0 12:44 ?        00:00:00 [kworker/u:21]
+[01;31m[Kroot[m[K       466     2  0 12:44 ?        00:00:00 [kworker/2:0]
+[01;31m[Kroot[m[K       468     2  0 12:44 ?        00:00:00 [kworker/3:2]
+[01;31m[Kroot[m[K       482   296  0 12:44 ?        00:00:00 udevd --daemon
+[01;31m[Kroot[m[K       484   296  0 12:44 ?        00:00:00 udevd --daemon
+[01;31m[Kroot[m[K       507     2  0 Feb17 ?        00:00:00 [kpsmoused]
+[01;31m[Kroot[m[K       510     2  0 Feb17 ?        00:00:00 [cfg80211]
+[01;31m[Kroot[m[K       580     2  0 Feb17 ?        00:00:00 [ktpacpid]
+[01;31m[Kroot[m[K       585     1  0 Feb17 ?        00:00:00 upstart-socket-bridge --daemon
+[01;31m[Kroot[m[K       648     2  0 Feb17 ?        00:00:00 [iwlagn]
+[01;31m[Kroot[m[K       681     1  0 Feb17 ?        00:00:02 smbd -F
+[01;31m[Kroot[m[K       688     1  0 Feb17 ?        00:00:00 /usr/sbin/sshd -D
+[01;31m[Kroot[m[K       705   681  0 Feb17 ?        00:00:00 smbd -F
+avahi      724   723  0 Feb17 ?        00:00:00 avahi-daemon: ch[01;31m[Kroot[m[K helper
+[01;31m[Kroot[m[K       725     1  0 Feb17 ?        00:00:54 NetworkManager
+[01;31m[Kroot[m[K       728     1  0 Feb17 ?        00:00:00 /usr/sbin/modem-manager
+[01;31m[Kroot[m[K       731     1  0 Feb17 ?        00:00:17 /usr/lib/policykit-1/polkitd
+[01;31m[Kroot[m[K       752     1  0 Feb17 ?        00:00:00 gdm-binary
+[01;31m[Kroot[m[K       754   725  0 12:44 ?        00:00:00 /sbin/dhclient -d -4 -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /var/run/dhclient-wlan0.pid -lf /var/lib/dhcp/dhclient-4011ec16-1d65-41d9-b31e-608bb5ccac96-wlan0.lease -cf /var/run/nm-dhclient-wlan0.conf wlan0
+[01;31m[Kroot[m[K       756     1  0 Feb17 ?        00:00:07 /usr/sbin/console-kit-daemon --no-daemon
+[01;31m[Kroot[m[K       841   752  0 Feb17 ?        00:00:00 /usr/lib/gdm/gdm-simple-slave --display-id /org/gnome/DisplayManager/Display1
+[01;31m[Kroot[m[K       846     2  0 Feb17 ?        00:00:00 [hd-audio0]
+[01;31m[Kroot[m[K       866     1  0 Feb17 ?        00:00:11 /sbin/wpa_supplicant -u -s
+[01;31m[Kroot[m[K       870     2  0 12:44 ?        00:00:03 [kworker/1:3]
+[01;31m[Kroot[m[K       897   841  0 Feb17 tty7     01:28:53 /usr/bin/X :0 -nr -verbose -auth /var/run/gdm/auth-for-gdm-DWsNsR/database -nolisten tcp vt7
+[01;31m[Kroot[m[K       933     1  0 Feb17 tty4     00:00:00 /sbin/getty -8 38400 tty4
+[01;31m[Kroot[m[K       937     1  0 Feb17 tty5     00:00:00 /sbin/getty -8 38400 tty5
+[01;31m[Kroot[m[K       944     1  0 Feb17 tty2     00:00:00 /sbin/getty -8 38400 tty2
+[01;31m[Kroot[m[K       945     1  0 Feb17 tty3     00:00:00 /sbin/getty -8 38400 tty3
+[01;31m[Kroot[m[K       948     1  0 Feb17 tty6     00:00:00 /sbin/getty -8 38400 tty6
+[01;31m[Kroot[m[K       955     1  0 Feb17 ?        00:00:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+[01;31m[Kroot[m[K       988     1  0 Feb17 ?        00:00:00 cron
+[01;31m[Kroot[m[K      1044     1  0 Feb17 ?        00:00:00 /usr/sbin/cupsd -F
+[01;31m[Kroot[m[K      1102     1  0 Feb17 ?        00:00:10 /usr/sbin/apache2 -k start
+nikki     1138  1122  0 13:39 pts/3    00:00:00 grep --color=auto [01;31m[Kroot[m[K
+[01;31m[Kroot[m[K      1171     2  0 Feb17 ?        00:00:08 [flush-8:0]
+[01;31m[Kroot[m[K      1180   841  0 Feb17 ?        00:00:00 /usr/lib/gdm/gdm-session-worker
+[01;31m[Kroot[m[K      1370     1  0 Feb17 ?        00:00:33 /usr/lib/upower/upowerd
+[01;31m[Kroot[m[K      1417     1  0 Feb17 ?        00:00:08 /usr/lib/udisks/udisks-daemon
+[01;31m[Kroot[m[K      1418  1417  0 Feb17 ?        00:00:00 udisks-daemon: not polling any devices
+[01;31m[Kroot[m[K      1582     1  0 Feb17 tty1     00:00:00 /sbin/getty -8 38400 tty1
+[01;31m[Kroot[m[K      1664     1  0 Feb17 ?        00:00:10 nmbd -D
+[01;31m[Kroot[m[K      1740     1  0 Feb17 ?        00:00:00 /usr/bin/python /usr/lib/system-service/system-service-d
+[01;31m[Kroot[m[K     27103     2  0 Feb25 ?        00:00:08 [kworker/0:2]
+[01;31m[Kroot[m[K     32511     2  0 11:54 ?        00:00:02 [kworker/0:0]
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep -n '^jack [K:' /etc/passwd
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep NW datafile 
+northwest 	[01;31m[KNW[m[K	Charles Main		3.0	.98	3	34
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep NW d*
+[35m[Kdatafile[m[K[36m[K:[m[Knorthwest 	[01;31m[KNW[m[K	Charles Main		3.0	.98	3	34
+[35m[Kdb[m[K[36m[K:[m[Knorthwest	[01;31m[KNW[m[K	Joel Craig	30	40	5	123
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep NW d*atafile -n '^jack:' /etc/passwd[1P[1P[1P[1P[1@n[1@i[1@k[1@k[1@i
+[32m[K34[m[K[36m[K:[m[K[01;31m[Knikki:[m[Kx:1000:1000:Nikki,,,:/home/nikki:/bin/bash
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep -n '^nikki:' /etc/passwd[1P[1P
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep -n '^nik[a-z]*:' /etc/passwd
+[32m[K34[m[K[36m[K:[m[K[01;31m[Knikki:[m[Kx:1000:1000:Nikki,,,:/home/nikki:/bin/bash
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '^n' datafile 
+[01;31m[Kn[m[Korthwest 	NW	Charles Main		3.0	.98	3	34
+[01;31m[Kn[m[Kortheast  	NE	AM Main Jr.		5.1	.94	3	13
+[01;31m[Kn[m[Korth 		NO	Margot Weber		4.5	.89	5	 9
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep ;[K'4$' datafile 
+northwest 	NW	Charles Main		3.0	.98	3	3[01;31m[K4[m[K
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep TB Saa[Kvage datafile 
+grep: Savage: No such file or directory
+[35m[Kdatafile[m[K[36m[K:[m[Keastern 	EA	[01;31m[KTB[m[K Savage		4.4	.84	5	20
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep 'TB Savage' daa[Ktafile 
+eastern 	EA	[01;31m[KTB Savage[m[K		4.4	.84	5	20
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '5\..' datafile 
+western 	WE	Sharon Gray		[01;31m[K5.3[m[K	.97	5	23
+southern 	SO	Suan Chin		[01;31m[K5.1[m[K	.95	4	15
+northeast  	NE	AM Main Jr.		[01;31m[K5.1[m[K	.94	3	13
+central 	CT 	Ann Stephens		[01;31m[K5.7[m[K	.94	5	13
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ f[Kgrep '\5[K.5' datafile 
+north 		NO	Margot Weber		4[01;31m[K.5[m[K	.89	5	 9
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '^w[K[we]' datafile 
+[01;31m[Kw[m[Kestern 	WE	Sharon Gray		5.3	.97	5	23
+[01;31m[Ke[m[Kastern 	EA	TB Savage		4.4	.84	5	20
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '[^0-9]' datafile 
+[01;31m[Kn[m[K[01;31m[Ko[m[K[01;31m[Kr[m[K[01;31m[Kt[m[K[01;31m[Kh[m[K[01;31m[Kw[m[K[01;31m[Ke[m[K[01;31m[Ks[m[K[01;31m[Kt[m[K[01;31m[K [m[K[01;31m[K	[m[K[01;31m[KN[m[K[01;31m[KW[m[K[01;31m[K	[m[K[01;31m[KC[m[K[01;31m[Kh[m[K[01;31m[Ka[m[K[01;31m[Kr[m[K[01;31m[Kl[m[K[01;31m[Ke[m[K[01;31m[Ks[m[K[01;31m[K [m[K[01;31m[KM[m[K[01;31m[Ka[m[K[01;31m[Ki[m[K[01;31m[Kn[m[K[01;31m[K	[m[K[01;31m[K	[m[K3[01;31m[K.[m[K0[01;31m[K	[m[K[01;31m[K.[m[K98[01;31m[K	[m[K3[01;31m[K	[m[K34
+[01;31m[Kw[m[K[01;31m[Ke[m[K[01;31m[Ks[m[K[01;31m[Kt[m[K[01;31m[Ke[m[K[01;31m[Kr[m[K[01;31m[Kn[m[K[01;31m[K [m[K[01;31m[K	[m[K[01;31m[KW[m[K[01;31m[KE[m[K[01;31m[K	[m[K[01;31m[KS[m[K[01;31m[Kh[m[K[01;31m[Ka[m[K[01;31m[Kr[m[K[01;31m[Ko[m[K[01;31m[Kn[m[K[01;31m[K [m[K[01;31m[KG[m[K[01;31m[Kr[m[K[01;31m[Ka[m[K[01;31m[Ky[m[K[01;31m[K	[m[K[01;31m[K	[m[K5[01;31m[K.[m[K3[01;31m[K	[m[K[01;31m[K.[m[K97[01;31m[K	[m[K5[01;31m[K	[m[K23
+[01;31m[Ks[m[K[01;31m[Ko[m[K[01;31m[Ku[m[K[01;31m[Kt[m[K[01;31m[Kh[m[K[01;31m[Kw[m[K[01;31m[Ke[m[K[01;31m[Ks[m[K[01;31m[Kt[m[K[01;31m[K [m[K[01;31m[K	[m[K[01;31m[KS[m[K[01;31m[KW[m[K[01;31m[K	[m[K[01;31m[KL[m[K[01;31m[Ke[m[K[01;31m[Kw[m[K[01;31m[Ki[m[K[01;31m[Ks[m[K[01;31m[K [m[K[01;31m[KD[m[K[01;31m[Ka[m[K[01;31m[Kl[m[K[01;31m[Ks[m[K[01;31m[Ka[m[K[01;31m[Ks[m[K[01;31m[Ks[m[K[01;31m[K	[m[K[01;31m[K	[m[K2[01;31m[K.[m[K7[01;31m[K	[m[K[01;31m[K.[m[K8[01;31m[K	[m[K2[01;31m[K	[m[K18
+[01;31m[Ks[m[K[01;31m[Ko[m[K[01;31m[Ku[m[K[01;31m[Kt[m[K[01;31m[Kh[m[K[01;31m[Ke[m[K[01;31m[Kr[m[K[01;31m[Kn[m[K[01;31m[K [m[K[01;31m[K	[m[K[01;31m[KS[m[K[01;31m[KO[m[K[01;31m[K	[m[K[01;31m[KS[m[K[01;31m[Ku[m[K[01;31m[Ka[m[K[01;31m[Kn[m[K[01;31m[K [m[K[01;31m[KC[m[K[01;31m[Kh[m[K[01;31m[Ki[m[K[01;31m[Kn[m[K[01;31m[K	[m[K[01;31m[K	[m[K5[01;31m[K.[m[K1[01;31m[K	[m[K[01;31m[K.[m[K95[01;31m[K	[m[K4[01;31m[K	[m[K15
+[01;31m[Ks[m[K[01;31m[Ko[m[K[01;31m[Ku[m[K[01;31m[Kt[m[K[01;31m[Kh[m[K[01;31m[Ke[m[K[01;31m[Ka[m[K[01;31m[Ks[m[K[01;31m[Kt[m[K[01;31m[K [m[K[01;31m[K [m[K[01;31m[K	[m[K[01;31m[KS[m[K[01;31m[KE[m[K[01;31m[K	[m[K[01;31m[KP[m[K[01;31m[Ka[m[K[01;31m[Kt[m[K[01;31m[Kr[m[K[01;31m[Ki[m[K[01;31m[Kc[m[K[01;31m[Ki[m[K[01;31m[Ka[m[K[01;31m[K [m[K[01;31m[KH[m[K[01;31m[Ke[m[K[01;31m[Km[m[K[01;31m[Ke[m[K[01;31m[Kn[m[K[01;31m[Kw[m[K[01;31m[Ka[m[K[01;31m[Ky[m[K[01;31m[K	[m[K4[01;31m[K.[m[K0[01;31m[K	[m[K[01;31m[K.[m[K7[01;31m[K	[m[K4[01;31m[K	[m[K17
+[01;31m[Ke[m[K[01;31m[Ka[m[K[01;31m[Ks[m[K[01;31m[Kt[m[K[01;31m[Ke[m[K[01;31m[Kr[m[K[01;31m[Kn[m[K[01;31m[K [m[K[01;31m[K	[m[K[01;31m[KE[m[K[01;31m[KA[m[K[01;31m[K	[m[K[01;31m[KT[m[K[01;31m[KB[m[K[01;31m[K [m[K[01;31m[KS[m[K[01;31m[Ka[m[K[01;31m[Kv[m[K[01;31m[Ka[m[K[01;31m[Kg[m[K[01;31m[Ke[m[K[01;31m[K	[m[K[01;31m[K	[m[K4[01;31m[K.[m[K4[01;31m[K	[m[K[01;31m[K.[m[K84[01;31m[K	[m[K5[01;31m[K	[m[K20
+[01;31m[Kn[m[K[01;31m[Ko[m[K[01;31m[Kr[m[K[01;31m[Kt[m[K[01;31m[Kh[m[K[01;31m[Ke[m[K[01;31m[Ka[m[K[01;31m[Ks[m[K[01;31m[Kt[m[K[01;31m[K [m[K[01;31m[K [m[K[01;31m[K	[m[K[01;31m[KN[m[K[01;31m[KE[m[K[01;31m[K	[m[K[01;31m[KA[m[K[01;31m[KM[m[K[01;31m[K [m[K[01;31m[KM[m[K[01;31m[Ka[m[K[01;31m[Ki[m[K[01;31m[Kn[m[K[01;31m[K [m[K[01;31m[KJ[m[K[01;31m[Kr[m[K[01;31m[K.[m[K[01;31m[K	[m[K[01;31m[K	[m[K5[01;31m[K.[m[K1[01;31m[K	[m[K[01;31m[K.[m[K94[01;31m[K	[m[K3[01;31m[K	[m[K13
+[01;31m[Kn[m[K[01;31m[Ko[m[K[01;31m[Kr[m[K[01;31m[Kt[m[K[01;31m[Kh[m[K[01;31m[K [m[K[01;31m[K	[m[K[01;31m[K	[m[K[01;31m[KN[m[K[01;31m[KO[m[K[01;31m[K	[m[K[01;31m[KM[m[K[01;31m[Ka[m[K[01;31m[Kr[m[K[01;31m[Kg[m[K[01;31m[Ko[m[K[01;31m[Kt[m[K[01;31m[K [m[K[01;31m[KW[m[K[01;31m[Ke[m[K[01;31m[Kb[m[K[01;31m[Ke[m[K[01;31m[Kr[m[K[01;31m[K	[m[K[01;31m[K	[m[K4[01;31m[K.[m[K5[01;31m[K	[m[K[01;31m[K.[m[K89[01;31m[K	[m[K5[01;31m[K	[m[K[01;31m[K [m[K9
+[01;31m[Kc[m[K[01;31m[Ke[m[K[01;31m[Kn[m[K[01;31m[Kt[m[K[01;31m[Kr[m[K[01;31m[Ka[m[K[01;31m[Kl[m[K[01;31m[K [m[K[01;31m[K	[m[K[01;31m[KC[m[K[01;31m[KT[m[K[01;31m[K [m[K[01;31m[K	[m[K[01;31m[KA[m[K[01;31m[Kn[m[K[01;31m[Kn[m[K[01;31m[K [m[K[01;31m[KS[m[K[01;31m[Kt[m[K[01;31m[Ke[m[K[01;31m[Kp[m[K[01;31m[Kh[m[K[01;31m[Ke[m[K[01;31m[Kn[m[K[01;31m[Ks[m[K[01;31m[K	[m[K[01;31m[K	[m[K5[01;31m[K.[m[K7[01;31m[K	[m[K[01;31m[K.[m[K94[01;31m[K	[m[K5[01;31m[K	[m[K13
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '^we' datafile 
+[01;31m[Kwe[m[Kstern 	WE	Sharon Gray		5.3	.97	5	23
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '^0-9' datafile 
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '[A-Z][A-Z][A-z[KZ][K[K[K[K[K [A-Z]' datafile 
+northwest 	NW	Charles Main		3.0	.98	3	34
+western 	WE	Sharon Gray		5.3	.97	5	23
+southwest 	SW	Lewis Dalsass		2.7	.8	2	18
+eastern 	EA	[01;31m[KTB S[m[Kavage		4.4	.84	5	20
+northeast  	NE	[01;31m[KAM M[m[Kain Jr.		5.1	.94	3	13
+north 		NO	Margot Weber		4.5	.89	5	 9
+central 	CT 	Ann Stephens		5.7	.94	5	13
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep 'ss* ' datafile 
+northwest 	NW	Charle[01;31m[Ks [m[KMain		3.0	.98	3	34
+southwest 	SW	Lewi[01;31m[Ks [m[KDalsass		2.7	.8	2	18
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '[a-z]\{9\}' datafile 
+[01;31m[Knorthwest[m[K 	NW	Charles Main		3.0	.98	3	34
+[01;31m[Ksouthwest[m[K 	SW	Lewis Dalsass		2.7	.8	2	18
+[01;31m[Ksoutheast[m[K  	SE	Patricia Hemenway	4.0	.7	4	17
+[01;31m[Knortheast[m[K  	NE	AM Main Jr.		5.1	.94	3	13
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '\<north\>' datafile 
+[01;31m[Knorth[m[K 		NO	Margot Weber		4.5	.89	5	 9
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '\<north\>' datafile [1@[a-z]\{9\}[C[C[C[C[C[C[C[C[C[C[C[6Pss* [C[C[C[C[C[C[C[C[C[C[C[12@[A-Z][A-Z] [A-Z][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@-[1@i
+northwest 	NW	Charl[01;31m[Kes M[m[Kain		3.0	.98	3	34
+western 	WE	Shar[01;31m[Kon G[m[Kray		5.3	.97	5	23
+southwest 	SW	Lew[01;31m[Kis D[m[Kalsass		2.7	.8	2	18
+southern 	SO	Su[01;31m[Kan C[m[Khin		5.1	.95	4	15
+southeast  	SE	Patric[01;31m[Kia H[m[Kemenway	4.0	.7	4	17
+eastern 	EA	[01;31m[KTB S[m[Kavage		4.4	.84	5	20
+northeast  	NE	[01;31m[KAM M[m[Ka[01;31m[Kin J[m[Kr.		5.1	.94	3	13
+north 		NO	Marg[01;31m[Kot W[m[Keber		4.5	.89	5	 9
+central 	CT 	A[01;31m[Knn S[m[Ktephens		5.7	.94	5	13
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '[a-z]\{9\}'
+^^C
+^C
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '[a-z]\{9\}' datafile 
+[01;31m[Knorthwest[m[K 	NW	Charles Main		3.0	.98	3	34
+[01;31m[Ksouthwest[m[K 	SW	Lewis Dalsass		2.7	.8	2	18
+[01;31m[Ksoutheast[m[K  	SE	Patricia Hemenway	4.0	.7	4	17
+[01;31m[Knortheast[m[K  	NE	AM Main Jr.		5.1	.94	3	13
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '\<north' datafile 
+[01;31m[Knorth[m[Kwest 	NW	Charles Main		3.0	.98	3	34
+[01;31m[Knorth[m[Keast  	NE	AM Main Jr.		5.1	.94	3	13
+[01;31m[Knorth[m[K 		NO	Margot Weber		4.5	.89	5	 9
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '^north' datafile 
+[01;31m[Knorth[m[Kwest 	NW	Charles Main		3.0	.98	3	34
+[01;31m[Knorth[m[Keast  	NE	AM Main Jr.		5.1	.94	3	13
+[01;31m[Knorth[m[K 		NO	Margot Weber		4.5	.89	5	 9
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '\<north'
+^C
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '\<north' datafile 
+[01;31m[Knorth[m[Kwest 	NW	Charles Main		3.0	.98	3	34
+[01;31m[Knorth[m[Keast  	NE	AM Main Jr.		5.1	.94	3	13
+[01;31m[Knorth[m[K 		NO	Margot Weber		4.5	.89	5	 9
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep -n '^south' datafile 
+[32m[K3[m[K[36m[K:[m[K[01;31m[Ksouth[m[Kwest 	SW	Lewis Dalsass		2.7	.8	2	18
+[32m[K4[m[K[36m[K:[m[K[01;31m[Ksouth[m[Kern 	SO	Suan Chin		5.1	.95	4	15
+[32m[K5[m[K[36m[K:[m[K[01;31m[Ksouth[m[Keast  	SE	Patricia Hemenway	4.0	.7	4	17
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep -i 'pat' datafile 
+southeast  	SE	[01;31m[KPat[m[Kricia Hemenway	4.0	.7	4	17
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ \[Kgrep -c ;wes[K[K[K[K'west' datafile 
+3
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep -w 'north' datafile
+[01;31m[Knorth[m[K 		NO	Margot Weber		4.5	.89	5	 9
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep '\<north\>' datafile 
+[01;31m[Knorth[m[K 		NO	Margot Weber		4.5	.89	5	 9
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ grep -in 'pat' datafile 
+[32m[K5[m[K[36m[K:[m[Ksoutheast  	SE	[01;31m[KPat[m[Kricia Hemenway	4.0	.7	4	17
+]0;nikki@boombox: ~/bash_hw/lab6[01;32mnikki@boombox[00m:[01;34m~/bash_hw/lab6[00m$ exit
+exit
+
+Script done on Sun 26 Feb 2012 03:35:17 PM PST

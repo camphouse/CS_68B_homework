@@ -1,0 +1,108 @@
+Script started on Tue 21 Feb 2012 01:45:17 AM PST
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ ./runit.sh 
+1) ls -F
+2) pwd
+3) date
+4) cal
+5) exit
+Select a program to execute: 1
+backup/		    check_showmount.sh*      fake/	 filex*		  lab4	    new-test-file-name*  project1	 weird_perms/
+backup.sh*	    create_sample_files.sh*  file*	 filey*		  lab4.sh*  noexperm.txt	 project1.sh*
+bigfiles.sh*	    empty_dir/		     file1.txt*  full_files_dir/  lab5	    no_files_dir/	 runit.sh*
+ch14_offline_notes  empty_files_dir/	     file2.txt*  greetings.sh*	  lab5a     ok.sh*		 step3.sh*
+check_null.sh*	    errors		     filetest	 lab3.sh*	  lab5b     permx.sh*		 test-file-name
+Select a program to execute: 2
+/home/nikki/bash_hw
+Select a program to execute: 3
+Tue Feb 21 01:45:23 PST 2012
+Select a program to execute: 4
+   February 2012      
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 [7m21[27m 22 23 24 25  
+26 27 28 29           
+                      
+Select a program to execute: 5
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ exit
+exit
+
+Script done on Tue 21 Feb 2012 01:45:28 AM PST
+Script started on Tue 21 Feb 2012 01:46:53 AM PST
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ ./dater.sh 
+Tue
+Feb
+21
+01:46:57
+PST
+2012
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ exit
+exit
+
+Script done on Tue 21 Feb 2012 01:47:10 AM PST
+Script started on Tue 21 Feb 2012 01:52:04 AM PST
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x op[K[K./opts3.sh -x
++ getopts dq: options
+./opts3.sh: illegal option -- x
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -xy
++ getopts dq: options
+./opts3.sh: illegal option -- x
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+./opts3.sh: illegal option -- y
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -xy[K[Ky
++ getopts dq: options
+./opts3.sh: illegal option -- y
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -y[Kb
++ getopts dq: options
+./opts3.sh: illegal option -- b
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -b[Kd
++ getopts dq: options
++ case $options in
++ echo 'you entered -d as an option'
+you entered -d as an option
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -dq
++ getopts dq: options
++ case $options in
++ echo 'you entered -d as an option'
+you entered -d as an option
++ getopts dq: options
+./opts3.sh: option requires an argument -- q
++ case $options in
++ echo 'usage: opts3 -dq filename...'
+usage: opts3 -dq filename...
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ bash -x ./opts3.sh -dq file_[K[Ke
++ getopts dq: options
++ case $options in
++ echo 'you entered -d as an option'
+you entered -d as an option
++ getopts dq: options
++ case $options in
++ echo 'the argument for -q is file'
+the argument for -q is file
++ getopts dq: options
+]0;nikki@boombox: ~/bash_hw[01;32mnikki@boombox[00m:[01;34m~/bash_hw[00m$ exit
+exit
+
+Script done on Tue 21 Feb 2012 01:53:05 AM PST
